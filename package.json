@@ -1,0 +1,27 @@
+{
+  "name": "@interview-assessment/client",
+  "version": "0.1.0",
+  "description": "A practical project for assessing potential hires at Under Armour",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "concurrently -n client,server \"npm install --prefix client\" \"npm install --prefix server\"",
+    "start": "concurrently \"npm:start:*\"",
+    "start:client": "npm start --prefix client",
+    "start:server": "npm start --prefix server",
+    "test": "concurrently \"npm:test:*\"",
+    "test:client": "npm test --prefix client",
+    "test:server": "npm test --prefix server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  },
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "react-select": "^2.4.1"
+  }
+}

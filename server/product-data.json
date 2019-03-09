@@ -1,0 +1,197 @@
+[
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c02020",
+      "name": "red"
+    },
+    "image": "https://via.placeholder.com/150/c02020/ffffff",
+    "material": 4,
+    "name": "Streamlined Fastsock",
+    "price": 35,
+    "size": "large",
+    "sku": "100-4-LG",
+    "style": 100,
+    "variant": "LG"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c08020",
+      "name": "orange"
+    },
+    "image": "https://via.placeholder.com/150/c08020/ffffff",
+    "material": 2,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "medium",
+    "sku": "100-2-MD",
+    "style": 100,
+    "variant": "MD"
+  },
+  {
+    "category": "Hats",
+    "color": {
+      "hex": "c02020",
+      "name": "red"
+    },
+    "image": "https://via.placeholder.com/150/c02020/ffffff",
+    "material": 11,
+    "name": "Nice Hat",
+    "price": 49.99,
+    "size": "one size fits all",
+    "sku": "104-11-OSFA",
+    "style": 104,
+    "variant": "OSFA"
+  },
+  {
+    "category": "Backpacks",
+    "color": {
+      "hex": "#404040",
+      "name": "storm gray"
+    },
+    "image": "https://via.placeholder.com/150/404040/ffffff",
+    "material": 3,
+    "name": "Streamlined Backpack",
+    "price": 75,
+    "size": "one size fits all",
+    "sku": "140-3-OSFA",
+    "style": 140,
+    "variant": "OSFA"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#808080",
+      "name": "gray"
+    },
+    "image": "https://via.placeholder.com/150/808080/ffffff",
+    "material": 1,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "medium",
+    "sku": "100-1-MD",
+    "style": 100,
+    "variant": "MD"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c08020",
+      "name": "orange"
+    },
+    "image": "https://via.placeholder.com/150/c08020/ffffff",
+    "material": 2,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "small",
+    "sku": "100-2-SM",
+    "style": 100,
+    "variant": "SM"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c02020",
+      "name": "red"
+    },
+    "image": "https://via.placeholder.com/150/c02020/ffffff",
+    "material": 4,
+    "name": "Streamlined Fastsock",
+    "price": 35,
+    "size": "medium",
+    "sku": "100-4-MD",
+    "style": 100,
+    "variant": "MD"
+  },
+  {
+    "category": "Backpacks",
+    "color": {
+      "hex": "#000000",
+      "name": "black"
+    },
+    "image": "https://via.placeholder.com/150/000000/ffffff",
+    "material": 3,
+    "name": "Capacious Backpack",
+    "price": 90,
+    "size": "one size fits all",
+    "sku": "141-3-OSFA",
+    "style": 141,
+    "variant": "OSFA"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c02020",
+      "name": "red"
+    },
+    "image": "https://via.placeholder.com/150/c02020/ffffff",
+    "material": 4,
+    "name": "Streamlined Fastsock",
+    "price": 35,
+    "size": "small",
+    "sku": "100-4-SM",
+    "style": 100,
+    "variant": "SM"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#808080",
+      "name": "gray"
+    },
+    "image": "https://via.placeholder.com/150/808080/ffffff",
+    "material": 1,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "small",
+    "sku": "100-1-SM",
+    "style": 100,
+    "variant": "SM"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#808080",
+      "name": "gray"
+    },
+    "image": "https://via.placeholder.com/150/808080/ffffff",
+    "material": 1,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "large",
+    "sku": "100-1-LG",
+    "style": 100,
+    "variant": "LG"
+  },
+  {
+    "category": "Socks",
+    "color": {
+      "hex": "#c08020",
+      "name": "orange"
+    },
+    "image": "https://via.placeholder.com/150/c08020/ffffff",
+    "material": 2,
+    "name": "Streamlined Fastsock",
+    "price": 30,
+    "size": "large",
+    "sku": "100-2-LG",
+    "style": 100,
+    "variant": "LG"
+  },
+  {
+    "category": "Hats",
+    "color": {
+      "hex": "c020c0",
+      "name": "purple"
+    },
+    "image": "https://via.placeholder.com/150/c020c0/ffffff",
+    "material": 13,
+    "name": "Nice Hat",
+    "price": 49.99,
+    "size": "one size fits all",
+    "sku": "104-13-OSFA",
+    "style": 104,
+    "variant": "OSFA"
+  }
+]

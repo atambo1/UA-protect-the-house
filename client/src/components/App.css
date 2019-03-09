@@ -1,0 +1,54 @@
+.App {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.App-header {
+	line-height: 2.5em;
+	height: 2.5em;
+	width: calc(100vw - 2em);
+	background-color: #000;
+	color: white;
+	font-size: calc(10px + 2vmin);
+	font-weight: bold;
+	padding: 0 1em;
+}
+
+/* mobile */
+@media screen and (max-width: 599px) {
+
+}
+
+/* tablet and up */
+@media screen and (min-width: 600px) {
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+	.App-content {
+		width: 1200px;
+	}
+}
+
+.App-content {
+	flex: 1 0 auto;
+  min-width: calc(320px - 2em);
+  max-width: 1200px;
+  width: calc(100% - 2em);
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+footer {
+	line-height: 3em;
+	height: 3em;
+	width: calc(100vw - 2em);
+	background-color: lightgrey;
+	text-align: center;
+	padding: 0 1em;
+}

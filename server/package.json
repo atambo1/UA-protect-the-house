@@ -1,0 +1,18 @@
+{
+  "name": "@interview-assessment/server",
+  "version": "0.1.0",
+  "description": "The backend for interview-assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/",
+    "test": "react-scripts test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "react-scripts": "^2.1.5"
+  }
+}
