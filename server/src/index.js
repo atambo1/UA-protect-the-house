@@ -37,7 +37,6 @@ app.get('/api/style/:id', (req, res) => {
   const style = styles.find(s => s.style === parseInt(req.params.id));
   if (!style) res.status(404).send(`A style with the given ID: ${req.params.id} was not found.`);
   res.send(style);
-
 });
 
 // Production Build
