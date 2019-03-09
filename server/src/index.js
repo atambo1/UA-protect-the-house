@@ -12,6 +12,7 @@ const aggregateMaterials = require('./lib/aggregate-materials.js');
 // Declarations
 const port = process.env.PORT || 5000;
 const app = express();
+const styles = aggregateMaterials(productData);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -28,13 +29,15 @@ app.post('/api/world', (req, res) => {
   );
 });
 
-app.get('/api/materials', (req, res) => {
-	res.send(aggregateMaterials(productData));
+app.get('/api/styles', (req, res) => {
+	res.send(styles);
 });
 
 app.get('/api/style/:id', (req, res) => {
-  //res.send(productData);
-  res.send(req.params);
+  const style = styles.find(s => s.style === parseInt(req.params.id));
+  if (!style) res.status(404).send(`A style with the given ID: ${req.params.id} was not found.`);
+  res.send(style);
+
 });
 
 // Production Build

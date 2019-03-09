@@ -120,7 +120,7 @@ const Product = ({ id }) => {
 		await delay(350);
 
 		// TODO: Uncomment the following line when the api endpoint is ready
-		// const item = await fetch(`/your/api/${style}`).then((res) => res.json())
+		//const item = await fetch(`/your/api/${style}`).then((res) => res.json())
 
 		setLoading(false);
 
