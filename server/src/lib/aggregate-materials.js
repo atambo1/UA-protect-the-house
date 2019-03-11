@@ -1,22 +1,35 @@
-const knownMaterials = {};
+const knownStyles = {};
 
-const materializeVariant = (variant) => {
-	const partialSku = [variant.style, variant.material].join('-');
-	const material = knownMaterials[partialSku] || {
-		name: variant.name,
+const stylizeVariant = (variant) => {
+	const partialSku = [variant.style, variant.materials].join('-');
+	const style = knownStyles[partialSku] || {
 		category: variant.category,
-		style: variant.style,
+		materials: [],
+		name: variant.name,
+		style: variant.style
+	};
+	const partMaterial = [variant.material];
+	const material = style[partMaterial] || {
+		color: variant.color,
+		image: variant.image,
 		material: variant.material,
 		variants: []
 	};
+	const partVariant = [material.color];
+	const vari = style.materials[partVariant] || {
+		price: variant.price,
+		size: variant.size,
+		sku: variant.sku,
+		variant: variant.variant
+	};
+	material.variants.push(vari);
+	style.materials.push(material);
+	knownStyles[partialSku] = style;
 
-	material.variants.push(variant);
-	knownMaterials[partialSku] = material;
-
-	return material;
+	return style;
 };
 
 module.exports = (productData) => {
-	productData.forEach(materializeVariant);
-	return Object.values(knownMaterials);
+	productData.forEach(stylizeVariant);
+	return Object.values(knownStyles);
 };

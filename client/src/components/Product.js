@@ -117,7 +117,7 @@ const Product = ({ id }) => {
 		setLoading(true);
 
 		// TODO: Remove the following line when the api endpoint is ready
-		await delay(350);
+		await delay(550);
 
 		// TODO: Uncomment the following line when the api endpoint is ready
 		//const item = await fetch(`/your/api/${style}`).then((res) => res.json())
